@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" aria-labelledby="title">
+  <title>SK Technologies — Icon</title>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#00A8FF"/>
+      <stop offset="100%" stop-color="#66E0FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Transparent background for flexible use -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="10">
+    <!-- Stylized S -->
+    <path d="M56 84c20-28 84-40 110-8 18 24-6 60-44 68" stroke="url(#g1)" />
+    <!-- Stylized K -->
+    <path d="M140 68v120" stroke="#071A2F" stroke-width="12"/>
+    <path d="M148 128l52-48" stroke="url(#g1)" />
+    <path d="M148 128l52 48" stroke="url(#g1)" />
+
+    <!-- Circuit nodes -->
+    <circle cx="54" cy="84" r="5" fill="#00A8FF" stroke="none" />
+    <circle cx="150" cy="68" r="5" fill="#00A8FF" stroke="none" />
+    <circle cx="200" cy="80" r="4" fill="#66E0FF" stroke="none" />
+    <circle cx="200" cy="176" r="4" fill="#66E0FF" stroke="none" />
+    <circle cx="148" cy="176" r="5" fill="#00A8FF" stroke="none" />
+
+    <!-- Connecting traces -->
+    <path d="M60 84 L140 84" stroke="#09263b" stroke-opacity="0.18" stroke-width="4"/>
+    <path d="M160 76 L196 82" stroke="#09263b" stroke-opacity="0.12" stroke-width="3"/>
+    <path d="M160 176 L196 176" stroke="#09263b" stroke-opacity="0.12" stroke-width="3"/>
+  </g>
+</svg>

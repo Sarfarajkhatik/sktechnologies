@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" aria-labelledby="title">
+  <title>SK Technologies — Favicon</title>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#00A8FF"/>
+      <stop offset="100%" stop-color="#66E0FF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+    <path d="M10 22c8-11 34-16 44-3 7 9-2 22-22 25" stroke="url(#g1)" />
+    <path d="M56 18v28" stroke="#071A2F" stroke-width="6"/>
+    <path d="M58 34l6-6" stroke="url(#g1)" />
+    <path d="M58 34l6 6" stroke="url(#g1)" />
+  </g>
+</svg>

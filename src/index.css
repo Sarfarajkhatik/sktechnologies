@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+  min-height: 100vh;
+}
+
+* {
+  @apply box-border;
+}
+
+button,
+a {
+  @apply transition duration-200 ease-in-out;
+}
+
+::selection {
+  background: rgba(249, 115, 22, 0.18);
+  color: #0f172a;
+}
